@@ -9,3 +9,9 @@
 
 A draft map for MicroTech
 ![A draft for MicroTech](MicroTech.png)
+
+## Camera Settings
+* Camera view angle: 90° (screen width)
+
+## Todo
+* get super high resolution 2D maps of all planets, this will be amazing

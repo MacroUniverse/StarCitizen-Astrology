@@ -1,6 +1,5 @@
 # MicroTech
 
-Screen: 90deg width, 1920x1080 px
 * perfect ball: radius 1000km
 * OM1-OM6 radius 1427km
 
