@@ -1,3 +1,4 @@
+close all; clear;
 T = readtable('MicroTech.csv', 'PreserveVariableNames', true);
 dist = T{:,2:end};
 N = size(dist,1);
@@ -11,6 +12,7 @@ P_OM = 1427*[
     0,-1,0; 0,1,0]; % OM5,6
 P = nan(N, 3);
 P1 = P; P2 = P; P3 = P; P4 = P;
+
 for i = 1:N
     inds = find(~isnan(dist(i,:)));
     Ndist = numel(inds);
@@ -37,7 +39,13 @@ for i = 1:N
     elseif ind == 4
         P(i,:) = (P2(i,:)+P4(i,:))/2;
     end
-    text(P(i,1)*1.1,P(i,2)*1.1,P(i,3)*1.1,T{i,1}{1});
+    scale = 1.2;
+    text(P(i,1)*scale,P(i,2)*scale,P(i,3)*scale,T{i,1}{1});
 end
 P = real(P);
 Scatter3(P);
+Scatter3(P_OM);
+for i = 1:6
+    text(P_OM(i,1)*1.1,P_OM(i,2)*1.1,P_OM(i,3)*1.1, ['OM ' num2str(i)]);
+end
+axis off;
