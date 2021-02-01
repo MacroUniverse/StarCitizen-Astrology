@@ -2,6 +2,7 @@
 
 * perfect ball: radius 1000km
 * OM1-OM6 radius 1427km
+* Spin direction: same as earth (use OM1 as northpole)
 
 ### Locations Coordinates
 * use OM3, OM6, OM1 as x-y-z axis; OM4, OM5, OM2 as negative x-y-z axis
