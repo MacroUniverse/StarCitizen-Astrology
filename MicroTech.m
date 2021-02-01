@@ -49,3 +49,4 @@ for i = 1:6
     text(P_OM(i,1)*1.1,P_OM(i,2)*1.1,P_OM(i,3)*1.1, ['OM ' num2str(i)]);
 end
 axis off;
+disp(P)

@@ -13,6 +13,10 @@ A draft map for MicroTech
 ## Camera Settings
 * Camera view angle: 90° (screen width)
 
+## Star Map
+* create a map for the star background
+
 ## Todo
 * View angle from inside and outside of the ship looks slightly different! Figure out the exact angle for each.
 * get super high resolution 2D maps of all planets, this will be amazing
+* to measure day length, aim through e.g. OM3-OM6, and compare the stars in the background.
