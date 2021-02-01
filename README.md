@@ -10,8 +10,9 @@
 A draft map for MicroTech
 ![A draft for MicroTech](MicroTech.png)
 
-## Camera Settings
+## Image Settings
 * Camera view angle: 90° (screen width)
+* If a date-time is attached to an image, then it's accurate to second, use Emerald Time app instead of device time.
 
 ## Star Map
 * create a map for the star background
