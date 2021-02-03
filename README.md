@@ -8,10 +8,10 @@
 * With a triangulation program, the coordinates of the locations will be calculated. Each location needs at least 4 distances.
 
 A draft map for MicroTech
-![A draft for MicroTech](MicroTechMicroTech.png)
+![A draft for MicroTech](MicroTech.png)
 
-A map for the celestial sphere of the stars
-![star-map](star-map/celestial sphere.jpg)
+A draft map for the stars
+![celestial sphere](celestial_sphere.jpg)
 
 ## Image Settings
 * Camera view angle: 90° (screen width)
