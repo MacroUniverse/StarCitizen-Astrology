@@ -5,7 +5,7 @@ Nm = 1920; Nn = 1080;
 ViewAng = pi/2;
 f = Nm/2/tan(ViewAng/2);
 file = 'C:\Users\addis\Documents\GitHub\StarCitizen-Astronomy\star-map\ginput.csv';
-img_names = 1:7;
+img_names = 1:11;
 % ==============
 close all;
 T = readtable(file, 'PreserveVariableNames', true);
@@ -23,7 +23,6 @@ figure; [X,Y,Z] = sphere(24);
 cameratoolbar;
 mesh(X,Y,Z, 'FaceAlpha','0','EdgeColor','c');
 hold on; axis equal; 
-scatter3(0,0,0, 'k');
 ind_img = 1;
 xyz = zeros(Nstar, 3);
 th = zeros(1,Nstar); ph = th;

@@ -2,6 +2,7 @@
 * Make accurate dynamic model for planets.
 * Make world clocks and calenders for all planets.
 * Make accurate maps for planets surface, including hidden locations.
+* a relavent project is https://starcitizen.center/stargazer
 
 ## Want to help?
 * Simply fly to OM1-OM6 of any planes/moons and turn on Quantum Drive to measure distances to different locations and add them to the files. Note that you have to fly exactly to the OM points (within meters) after the quantum travl.
