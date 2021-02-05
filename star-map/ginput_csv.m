@@ -1,6 +1,6 @@
 close all;
 path = 'C:\Users\addis\Documents\GitHub\StarCitizen-Astronomy\star-map\';
-imfiles = '14.png';
+imfiles = '15.png';
 I = imread([path imfiles]);
 figure; imshow(I); hold on;
 xy = zeros(100,2);
