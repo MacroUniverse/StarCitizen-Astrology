@@ -21,7 +21,7 @@ Pcam = [0,0,0]; Ploc = [0,0,0];
 cam=[cam33;Pcam;Ploc;Nm,Nn,f];
 figure; [X,Y,Z] = sphere(24);
 cameratoolbar;
-mesh(X,Y,Z, 'FaceAlpha','0','EdgeColor','c');
+mesh(X,Y,Z, 'FaceAlpha','1','EdgeColor','c');
 hold on; axis equal; 
 ind_img = 1;
 xyz = zeros(Nstar, 3);
