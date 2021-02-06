@@ -16,6 +16,7 @@ A draft map for the stars
 
 ## Image Settings
 * Camera view angle: 90° (screen width)
+* Chromatic aberation off
 * If a date-time is attached to an image, then it's accurate to second, use Emerald Time app instead of device time.
 
 ## Star Map
@@ -24,4 +25,4 @@ A draft map for the stars
 ## Todo
 * View angle from inside and outside of the ship looks slightly different! Figure out the exact angle for each.
 * get super high resolution 2D maps of all planets, this will be amazing
-* to measure day length, aim through e.g. OM3-OM6, and compare the stars in the background.
+* camera distortion test and calibrate with OM1-OM6
